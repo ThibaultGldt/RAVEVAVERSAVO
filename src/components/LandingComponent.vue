@@ -1,5 +1,5 @@
 <script setup lang="ts"></script>
 
-<template>Ici le davictavionnavaire</template>
+<template></template>
 
 <style scoped></style>

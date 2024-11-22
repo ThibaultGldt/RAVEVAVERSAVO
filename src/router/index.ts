@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Landing from '@/components/LandingPage.vue'
+import DictionnaryComponent from '@/components/DictionnaryComponent.vue'
+import HomeView from '@/views/HomeView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -7,7 +8,12 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: Landing,
+      component: HomeView,
+    },
+    {
+      path: '/davictavionnavaire',
+      name: 'davictavionnavaire',
+      component: () => DictionnaryComponent,
     },
     // {
     //   path: '/about',
