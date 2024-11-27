@@ -1,18 +1,11 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
+import { MenuComponent } from '@/components/MenuComponent.vue'
 </script>
 
 <template>
   <header>
-    <div class="wrapper">
-      <nav>
-        <RouterLink to="/davictavionnavaire">Davictavionnavaire</RouterLink>
-        <!-- <RouterLink to="/about">About</RouterLink> -->
-      </nav>
-    </div>
+    <MenuComponent />
   </header>
-
-  <RouterView />
 </template>
 
 <style scoped></style>
